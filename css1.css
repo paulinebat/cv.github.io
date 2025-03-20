@@ -1,0 +1,379 @@
+body
+    {
+		font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+/*Partie Tout et Nav*/
+
+Section{
+    display:inline-flex;
+}
+#nav{
+    background-color: blueviolet;
+}
+img{
+    width: 105px;
+    margin-left: 78px;
+    margin-top: 30px;
+    border-radius: 50px;
+    padding-bottom: -0.1px;
+}
+img:hover{
+    scale:1.1;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+}
+#Contacte{
+    background-color: rgb(0, 0, 0);
+    padding-top: -0.1px;
+    padding-bottom: -0.1px;
+    text-align: center;
+    color: aliceblue;
+}
+#Adresse{
+    font-size: small;
+    color: aliceblue;
+    text-align:left;
+    padding-right: 40px;
+}
+#Langues{
+    background-color: rgb(0, 0, 0);
+    padding-top: -0.1px;
+    padding-bottom: -1px;
+    text-align: center;
+    color: aliceblue;
+}
+#liste{
+    font-size: small;
+    color: aliceblue;
+    text-align:left;
+    padding-right: 40px;
+}
+#loisir{
+    background-color: rgb(0, 0, 0);
+    padding-top: -1px;
+    padding-bottom: -1px;
+    text-align: center;
+    color: aliceblue;
+}
+#Font{
+    padding-bottom: 20px;
+    padding-top: 290px;
+}
+#Icones{
+    display: flex;
+}
+#Avion{
+    font-size: 30px;
+    margin-left: 23px;
+    border: solid;
+    border-radius: 100%;
+    border-color: aliceblue;
+    padding-top: 7px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+#Camera{
+    font-size: 30px;
+    margin-left: 23px;
+    border: solid;
+    border-radius: 100%;
+    border-color: aliceblue;
+    padding-top: 7px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+#Stylo{
+    font-size: 30px;
+    margin-left: 23px;
+    border: solid;
+    border-radius: 100%;
+    border-color: aliceblue;
+    padding-top: 7px;
+    padding-right: 11px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+}
+#Tout{
+        display:inline-flex;
+    }
+
+/*Partie Section*/
+
+#Section{
+    background-color: black;
+    color:aliceblue;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 35px;
+    margin-right: 455px;
+    display:inline-block;
+}
+.h1, .p1{
+    line-height: 0.5em;
+}
+.Responsable{
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+}
+.De{
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+}
+.Communication{
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+}
+
+/*Partie A Propos de Moi*/
+
+#Propos{
+    padding-top: 20px;
+    display:flex;
+}
+.h2{
+    padding-left: 40px;
+    margin-left: 2px;
+    position:absolute;
+}
+#user{
+    font-size: 23px;
+    margin-top: 14px;
+    margin-bottom: 7px;
+    margin-left: 5px;
+    position: relative;
+}
+hr.new1 {
+    border: 1px solid rgb(153, 0, 255);
+    }
+
+#paragraphe{
+    font-size: small;
+    padding-left: 12px;
+}
+
+/*Partie Formation*/
+
+#Formation{
+    padding-top: 7px;
+    display:flex;
+}
+.h3{
+    padding-left: 40px;
+    margin-left: 2px;
+    position:absolute;
+}
+#graduation{
+    font-size: 23px;
+    margin-top: 14px;
+    margin-bottom: 7px;
+    margin-left: 5px;
+    position: relative;
+}
+
+#Annee1{
+    padding-top: 7px;
+    display:flex;
+}
+.p2{
+    padding-left: 40px;
+    margin-left: 0px;
+    font-size: small;
+    position:absolute;
+}
+.p3{
+    padding-left: 200px;
+    margin-left: 0px;
+    margin-right: 500px;
+    font-size: small;
+    position:absolute;
+}
+#point1{
+    font-size: 10px;
+    margin-top: 23px;
+    margin-bottom: 7px;
+    margin-left: 13px;
+    position: relative;
+}
+
+#Annee2{
+    padding-top: 23px;
+    display:flex;
+}
+.p4{
+    padding-left: 40px;
+    margin-left: 0px;
+    font-size: small;
+    position:absolute;
+}
+.p5{
+    padding-left: 200px;
+    margin-left: 0px;
+    margin-right: 500px;
+    font-size: small;
+    position:absolute;
+}
+#point2{
+    font-size: 10px;
+    margin-top: 23px;
+    margin-bottom: 7px;
+    margin-left: 13px;
+    position: relative;
+}
+
+/*Partie Expérience Professionnelle*/
+
+#Experience{
+    padding-top: 23px;
+    display: flex;
+}
+.h4{
+    padding-left: 40px;
+    margin-left: 2px;
+    position:absolute;
+}
+#travail{
+    font-size: 23px;
+    margin-top: 14px;
+    margin-bottom: 7px;
+    margin-left: 5px;
+    position: relative;
+}
+#Exp1{
+    padding-top: 9px;
+    display:flex;
+}
+.p6{
+    padding-left: 40px;
+    margin-left: 0px;
+    font-size: small;
+    position:absolute;
+}
+.p7{
+    padding-left: 200px;
+    margin-left: 0px;
+    margin-right: 500px;
+    font-size: small;
+    position:absolute;
+}
+.p8{
+    padding-left: 200px;
+    padding-top: 4px;
+    margin-left: 0px;
+    margin-right: 500px;
+    font-size: small;
+    position:absolute;
+}
+.p9{
+    padding-left: 200px;
+    padding-top: 40px;
+    margin-left: 0px;
+    margin-right: 500px;
+    font-size: small;
+    position:absolute;
+}
+#point3{
+    font-size: 10px;
+    margin-top: 23px;
+    margin-bottom: 7px;
+    margin-left: 13px;
+    position: relative;
+}
+
+#Exp2{
+    padding-top: 73px;
+    display:flex;
+}
+.p10{
+    padding-left: 40px;
+    margin-left: 0px;
+    font-size: small;
+    position:absolute;
+}
+.p11{
+    padding-left: 200px;
+    margin-left: 0px;
+    margin-right: 500px;
+    font-size: small;
+    position:absolute;
+}
+.p12{
+    padding-left: 200px;
+    padding-top: 4px;
+    margin-left: 0px;
+    margin-right: 500px;
+    font-size: small;
+    position:absolute;
+}
+.p13{
+    padding-left: 200px;
+    padding-top: 58px;
+    margin-left: 0px;
+    margin-right: 500px;
+    font-size: small;
+    position:absolute;
+}
+#point4{
+    font-size: 10px;
+    margin-top: 23px;
+    margin-bottom: 7px;
+    margin-left: 13px;
+    position: relative;
+}
+#Exp3{
+    padding-top: 125px;
+    display:flex;
+}
+.p14{
+    padding-left: 40px;
+    margin-left: 0px;
+    font-size: small;
+    position:absolute;
+}
+.p15{
+    padding-left: 200px;
+    margin-left: 0px;
+    margin-right: 500px;
+    font-size: small;
+    position:absolute;
+}
+.p16{
+    padding-left: 200px;
+    padding-top: 6px;
+    margin-left: 0px;
+    margin-right: 500px;
+    font-size: small;
+    position:absolute;
+}
+.p17{
+    padding-left: 200px;
+    padding-top: 44px;
+    margin-left: 0px;
+    margin-right: 500px;
+    font-size: small;
+    position:absolute;
+}
+#point5{
+    font-size: 10px;
+    margin-top: 23px;
+    margin-bottom: 7px;
+    margin-left: 13px;
+    position: relative;
+}
+
+/*Responsive*/
+@media only screen and (max-width:800px){
+    #Section{
+        float:right;
+        width: 450px;
+    }
+    #nav{
+        float: none;
+        width: 260px;
+    }
+}
